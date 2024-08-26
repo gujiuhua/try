@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Blog</h1>
+    <form id="postForm" enctype="multipart/form-data">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <input type="file" id="image" accept="image/*">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="posts"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
